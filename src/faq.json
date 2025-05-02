@@ -33,7 +33,7 @@
   {
     "id":5,
     "question": "Zirveye katılımım sonunda sertifika verilecek mi?",
-    "answer": "Evet, 7 oturumdan en az 5’ine katılan katılımcılara online sertifika verilecektir."
+    "answer": "Evet, 5 oturumdan en az 4’ine katılan katılımcılara online sertifika verilecektir."
   },
   {
     "id": 6,
@@ -51,10 +51,10 @@
     "answer": "Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam'da gerçekleşecektir. Fiziksel alanda başvuran takımların kişi sayısına göre 15-20 takım yer alacaktır. Takımınızın fiziksel alanda yer alıp almayacağı yarışmadan 1 hafta önce belli olacaktır. Eğer ki fiziksel olarak katılamayacak takımlar varsa da yedek takımlar sırayla çağırılacaktır."
   },
   {
-    "id":9,
+    "id": 9,
     "question": "Zirve veya yarışma için yaş sınırı var mıdır?",
-    "answer": "Zirve ve Jam için yaş sınırlamamız yok fakat etkinliğe katılım sağlayacak 18 yaş altı bireylere başvuru formunda belirtilen maillerine veli izin dilekçesi iletilmektedir. Katılım sağlayacak kişinin velisi dilekçeyi ıslak imzalı bir şekilde doldurup göndermiş olduğumuz maile yanıt olarak dönüş yapması gerekmektedir. "
-  },
+    "answer": "Zirve için yaş sınırlamamız yoktur. Ancak 18 yaş altı katılımcıların, başvuru formunda belirtilen maile gönderilecek olan veli izin dilekçesini ıslak imzalı şekilde doldurup geri iletmeleri gerekmektedir. Yarışma için ise katılım yaşı sınırı 18'dir; yalnızca 18 yaş ve üzeri bireyler yarışmaya katılabilir."
+  },  
   {
     "id": 10,
     "question": "YILDIZ JAM Yarışmasına katılmak için kurallar nelerdir?",
