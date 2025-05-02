@@ -1,6 +1,6 @@
 import React from 'react'
-import gungoren from '../../images/güngören.png'
 import questionMark from '../../images/question_mark.png'
+import sisal from '../../images/sisal_Green.png'
 
 
 const Sponsors = () => {
@@ -81,13 +81,12 @@ const Sponsors = () => {
         <br/>
         <br/>
 
-        <h1 className=' w-full flex justify-center items-center gap-2 mt-2 text-4xl font-semibold baralt'>Yakında Açıklanacak!</h1>
-        {/* 
+        {/*<h1 className=' w-full flex justify-center items-center gap-2 mt-2 text-4xl font-semibold baralt'>Yakında Açıklanacak!</h1>
         <div className='w-full flex justify-center items-center grid-rows-3 '>
             <a href='https://www.crytek.com/' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={Question} width="550px"/></a>
         </div>
         */}
-        {/* 
+         
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
             <h1 className=' text-3xl font-semibold baralt'>
@@ -96,12 +95,9 @@ const Sponsors = () => {
             <span className=' flex-1 bg-first h-[2px]'/>
         </div>
         <br/>
-        <h1 className=' w-full flex justify-center items-center gap-2 mt-2 text-2xl font-semibold baralt'>Yakında Açıklanacak!</h1>
-        {/*
         <div className='w-full flex justify-center items-center grid-rows-3'>
-            <a href='https://www.crytek.com/' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={questionMark} width="400px"/></a>
+            <a href='https://www.sisalsans.com/tr' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={sisal} width="400px"/></a>
         </div>
-         */}
          {/* 
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
