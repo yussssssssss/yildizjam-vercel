@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "question": "Yıldız Jam nedir?",
+    "answer": "Yarışmamız tüm oyun gelişticilerin, dizayncıların, modellemecilerin ve pek çok roldeki insanların bileceği gibi bir game jam yarışmasıdır. YouTube üzerinden canlı yayınla açıklanacak olan temamız ile yarışmamız 9 Mayıs 20:00'da başlayacaktır ve 48 saat sürecektir. Yarışmaya katılımınız onaylanması için hem itch.io platformu üzerinden katılmanız hem de yarışmacı formunu sorulara doğru cevap vererek doldurmanız gerekmektedir. Yarışmaya hem çevrim içi hem çevrim dışı katılmak mümkündür."
+  },
+  {
+    "id":2,
+    "question": "Etkinlik nerede ve ne zaman gerçekleşecek?",
+    "answer":
+      "YILDIZ JAM, 9-10-11 Mayıs tarihlerinde Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam’da gerçekleşecektir. Zirve, 9 Mayıs günü 12.30’da başlayıp 17.00’de biterken yarışma ise 9 Mayıs günü 20.00’de başlayıp 11 Mayıs günü 20.00’de bitecektir."
+  },
+  {
+    "id": 3,
+    "question": "Etkinliğe nereden başvurabilirim?",
+    "isMultiLink": true,
+    "links": [
+      {
+        "text": "Zirve formu",
+        "href": "https://skyl.app/yildizjam-katilimci-formu"
+      },
+      {
+        "text": "Yarışma formu",
+        "href": "https://skyl.app/yildizjam-yarisma-basvuru-formu"
+      }
+    ]
+  },
+  {
+    "id":4,
+    "question": "Etkinliğe katılım ücretsiz mi?",
+    "answer": "Evet, etkinliğimiz tamamen ücretsizdir."
+  },
+  {
+    "id":5,
+    "question": "Zirveye katılımım sonunda sertifika verilecek mi?",
+    "answer": "Evet, 7 oturumdan en az 5’ine katılan katılımcılara online sertifika verilecektir."
+  },
+  {
+    "id": 6,
+    "question": "Yıldız Jam'de yalnızca seminere veya yarışmaya katılabilir miyim?",
+    "answer": "Elbette, ister ikisine birden istersen de yalnızca birine katıl. Karar senin."
+  },
+  {
+    "id": 7,
+    "question": "YILDIZ JAM'de seminer nedir?",
+    "answer": "Zirve, 9 Mayıs'ta Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam'da gerçekleşecektir. Seminerin yanı sıra oturum aralarında gezebileceğin bir fuaye alanı da bulunmaktadır. Bu fuaye alanında oyun sektöründen şirketler, deneyim alanları ve ikramlar yer alacaktır."
+  },
+  {
+    "id": 8,
+    "question": "Fiziksel alanda yarışma nasıl gerçekleşecektir?",
+    "answer": "Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam'da gerçekleşecektir. Fiziksel alanda başvuran takımların kişi sayısına göre 15-20 takım yer alacaktır. Takımınızın fiziksel alanda yer alıp almayacağı yarışmadan 1 hafta önce belli olacaktır. Eğer ki fiziksel olarak katılamayacak takımlar varsa da yedek takımlar sırayla çağırılacaktır."
+  },
+  {
+    "id":9,
+    "question": "Zirve veya yarışma için yaş sınırı var mıdır?",
+    "answer": "Zirve ve Jam için yaş sınırlamamız yok fakat etkinliğe katılım sağlayacak 18 yaş altı bireylere başvuru formunda belirtilen maillerine veli izin dilekçesi iletilmektedir. Katılım sağlayacak kişinin velisi dilekçeyi ıslak imzalı bir şekilde doldurup göndermiş olduğumuz maile yanıt olarak dönüş yapması gerekmektedir. "
+  },
+  {
+    "id": 10,
+    "question": "YILDIZ JAM Yarışmasına katılmak için kurallar nelerdir?",
+    "isLink": true,
+    "link": "http://skyl.app/yildizjam-yarisma-sartname",
+    "linkText": "YILDIZ JAM Yarışma Kuralları"
+  },
+  {
+    "id": 11,
+    "question": "Yarışmaya başvurumun kabul olduğunu nasıl anlayacağım?",
+    "answer": "Yarışmacı başvurunu formunu doldurmanın ardından olumlu olması halinde mail adresine yarışmacı bileti alacaksın. Ardından itchio sitesinden de Yıldız Jam'e katıl diyerek Jam'e katılımını kesinleştirebilirsin. "
+  }
+]

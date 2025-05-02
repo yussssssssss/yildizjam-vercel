@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+
+:root {
+  font-family: "Lexend", sans-serif;
+  background-color: #f5efe6;
+}
+
+.lexend {
+  font-family: "Lexend", sans-serif;
+}
+
+.press2p {
+  font-family: "Press Start 2P", cursive;
+}
+
+.arcade {
+  font-family: Arcade;
+}
+
+@font-face {
+  font-family: Arcade;
+  src: url(./fonts/ARCADE_N.TTF);
+}
+
+.primarycolor {
+  color: #fbcb0a;
+}
+
+.secondarycolor {
+  color: #c70a80;
+}
+
+.thirdcolor {
+  color: #590696;
+}
+
+.dorduncucolor {
+  color: #37e2d5;
+}
+
+.home-section img {
+  animation: updown cubic-bezier(0.42, 0, 0.58, 1) 4s infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-40px);
+  }
+  /* 25%{
+        transform: translateY(-10px);
+    } */
+  50% {
+    transform: translateY(60px);
+  }
+  /* 75%{
+        transform: translateY(10px);
+    } */
+  100% {
+    transform: translateY(-40px);
+  }
+}
+
+/* Ahmet */
+
+.speakers-information {
+  background-color: rgba(90, 6, 150, 0.9);
+}
+.speakers-box:nth-child(4n + 2) > .speakers-information {
+  background-color: rgba(251, 203, 10, 0.9);
+}
+.speakers-box:nth-child(4n + 3) > .speakers-information {
+  background-color: rgba(199, 10, 126, 0.9);
+}
+.speakers-box:nth-child(4n) > .speakers-information {
+  background-color: rgba(55, 226, 212, 0.9);
+}
+
+.speakers-box:hover > .speakers-information {
+  top: 0px;
+  opacity: 1;
+}
+
+.speakersBar-rocket {
+  animation: rocket 15s ease-in-out infinite;
+  animation-duration: 2s;
+}
+
+@keyframes rocket {
+  0% {
+    transform: translateX(-150px);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.rocket-image {
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 732px) {
+  img {
+    width: 128px;
+  }
+  .funverse {
+    width: 192px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  img {
+    width: 128px;
+  }
+  .sponsor,
+  .mentor,
+  .speaker,
+  .stant,
+  .baralt {
+    font-size: 20px;
+  }
+  .konusmaci {
+    font-size: 12px;
+  }
+  .info {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  img {
+    width: 192px;
+  }
+  .info {
+    font-size: 6px;
+  }
+}
+
+.animate-marquee {
+  -webkit-animation: marquee 25s linear infinite;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee2 {
+  -webkit-animation: marquee2 25s linear infinite;
+  animation: marquee2 25s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  to {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes marquee2 {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
