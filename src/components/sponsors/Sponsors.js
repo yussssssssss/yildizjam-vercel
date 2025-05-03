@@ -1,6 +1,8 @@
 import React from 'react'
 import questionMark from '../../images/question_mark.png'
 import sisal from '../../images/sisal_Green.png'
+import coreengegeLogo from '../../images/core_engage_logo.png'
+import turktelekomLogo from '../../images/turk_telekom_logo.svg'
 
 
 const Sponsors = () => {
@@ -98,35 +100,34 @@ const Sponsors = () => {
         <div className='w-full flex justify-center items-center grid-rows-3'>
             <a href='https://www.sisalsans.com/tr' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={sisal} width="400px"/></a>
         </div>
-         {/* 
+         
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
             <h1 className=' text-3xl font-semibold baralt'>
-                Gümüş Sponsor
+                Bronz Sponsor
+            </h1>
+            <span className=' flex-1 bg-first h-[2px]'/>
+        </div>
+        <br/>
+
+        <div className='w-full flex justify-center items-center grid-rows-3'>
+            {<a href='https://coreengage.com' target={"_blank"}><img src={coreengegeLogo} width="400px"/></a>}
+        </div>
+        
+        <div className=' w-full flex justify-center items-center gap-2 mt-8'>
+            <span className=' flex-1 bg-first h-[2px]' />
+            <h1 className=' text-3xl font-semibold baralt'>
+                Oturum Sponsoru
             </h1>
             <span className=' flex-1 bg-first h-[2px]'/>
         </div>
         
         <br/>
-        */}
-        {/* 
+
         <div className='w-full flex justify-center items-center grid-rows-3'>
-            {<a href='https://www.narcade.com/' target={"_blank"}><img src={narcade} width="384px"/></a>}
+            <a href='https://www.turktelekom.com.tr' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={turktelekomLogo} width="400px"/></a>
         </div>
-        <div className=' w-full flex justify-center items-center gap-2 mt-8'>
-            <span className=' flex-1 bg-first h-[2px]' />
-            <h1 className=' text-3xl font-semibold baralt'>
-                Jam Sponsoru
-            </h1>
-            <span className=' flex-1 bg-first h-[2px]'/>
-        </div>
-        
-        <br/>
-        */}
-        {/* 
-        <div className='w-full flex justify-center items-center grid-rows-3'>
-            <a href='https://www.sense4motion.com/' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={gungoren} width="300px"/></a>
-        </div>
+        {/*
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
             <h1 className=' text-3xl font-semibold baralt'>
@@ -236,6 +237,13 @@ const Sponsors = () => {
             {/*<a href='https://instagram.com/su_oyungelistirme?igshid=OGRjNzg3M2Y=' target={"_blank"}><img src={suog} width="256px"/></a>
             <a href='https://instagram.com/buglabzone?igshid=OGRjNzg3M2Y=' target={"_blank"}><img src={buglabzone} width="128px"/></a>*/}
         </div>
+
+        <div className=' w-full flex justify-center items-center gap-2 mt-8'>
+            <span className=' bg-first h-[2px]' />
+            
+            <span className=' flex-1 bg-first h-[2px]'/>
+        </div>
+
     </div>
   )
 }
