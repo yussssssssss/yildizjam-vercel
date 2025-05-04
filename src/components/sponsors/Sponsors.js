@@ -3,6 +3,7 @@ import questionMark from '../../images/question_mark.png'
 import sisal from '../../images/sisal_Green.png'
 import coreengegeLogo from '../../images/core_engage_logo.png'
 import turktelekomLogo from '../../images/turk_telekom_logo.svg'
+import aibellgameLogo from '../../images/aibellgame_logo.jpeg'
 
 
 const Sponsors = () => {
@@ -110,9 +111,11 @@ const Sponsors = () => {
         </div>
         <br/>
 
-        <div className='w-full flex justify-center items-center grid-rows-3'>
+        <div className='w-full flex justify-center items-center  grid-rows-3 gap-x-6 md:gap-x-20 lg:gap-x-40'>
             {<a href='https://coreengage.com' target={"_blank"}><img src={coreengegeLogo} width="400px"/></a>}
+            {<a href='https://www.aibellgame.com' target={"_blank"}><img src={aibellgameLogo} width="200px"/></a>}
         </div>
+
         
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
