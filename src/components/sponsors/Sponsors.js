@@ -8,6 +8,8 @@ import deepfreshLogo from '../../images/deepfresh_logo.png'
 import durukanLogo from '../../images/durukan_logo.png'
 import nescafeLogo from '../../images/nescafe_logo.png'
 import taskestiLogo from '../../images/taskesti_logo.png'
+import ankaramakarnaLogo from '../../images/ankaramakarna_logo.png'
+import adiyamancigkofteLogo from '../../images/adiyamancigkofte_logo.png'
 
 
 const Sponsors = () => {
@@ -148,9 +150,15 @@ const Sponsors = () => {
             <a href='https://www.nescafe.com.tr' target={"_blank"}><img src={nescafeLogo} width="200px"/></a>
             <a href='https://www.taskestisu.com' target={"_blank"}><img src={taskestiLogo} width="200px"/></a>
             <a href='https://www.durukan.com.tr' target={"_blank"}><img src={durukanLogo} width="200px"/></a>
-            <a href='https://deepfresh.com.tr' target={"_blank"}><img src={deepfreshLogo} width="200px"/></a>
         </div>
         
+        <br/>
+
+        <div className='w-full flex justify-around items-center grid-rows-4 gap-8'>
+        <a href='https://deepfresh.com.tr' target={"_blank"}><img src={deepfreshLogo} width="200px"/></a>
+            <a href='https://www.nuh.com.tr' target={"_blank"}><img src={ankaramakarnaLogo} width="200px"/></a>
+            <a href='https://www.adiyamancigkoftecisi.com/tr' target={"_blank"}><img src={adiyamancigkofteLogo} width="200px"/></a>
+            </div>
         
         <br/>
         
