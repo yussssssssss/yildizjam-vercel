@@ -4,6 +4,10 @@ import sisal from '../../images/sisal_Green.png'
 import coreengegeLogo from '../../images/core_engage_logo.png'
 import turktelekomLogo from '../../images/turk_telekom_logo.svg'
 import aibellgameLogo from '../../images/aibellgame_logo.jpeg'
+import deepfreshLogo from '../../images/deepfresh_logo.png'
+import durukanLogo from '../../images/durukan_logo.png'
+import nescafeLogo from '../../images/nescafe_logo.png'
+import taskestiLogo from '../../images/taskesti_logo.png'
 
 
 const Sponsors = () => {
@@ -130,29 +134,25 @@ const Sponsors = () => {
         <div className='w-full flex justify-center items-center grid-rows-3'>
             <a href='https://www.turktelekom.com.tr' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={turktelekomLogo} width="400px"/></a>
         </div>
-        {/*
+
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
             <h1 className=' text-3xl font-semibold baralt'>
-                Ürün Sponsorları
+                Ürün Sponsoru
             </h1>
             <span className=' flex-1 bg-first h-[2px]'/>
         </div>
         
         <br/>
-        */}
-        {/* 
         <div className='w-full flex justify-around items-center grid-rows-4 gap-8'>
-            <a href='https://www.corny.com.tr//' target={"_blank"}><img src={corny} width="192px"/></a>
-            <a href='https://www.thegamecircle.com/' target={"_blank"}><img src={gamecircle} width="192px"/></a>
-            <a href='https://www.nescafe.com.tr//' target={"_blank"}><img src={nescafe} width="192px"/></a>
-            <a href='https://www.haribo.com/tr-tr' target={"_blank"}><img src={haribo} width="192px"/></a>
+            <a href='https://www.nescafe.com.tr' target={"_blank"}><img src={nescafeLogo} width="200px"/></a>
+            <a href='https://www.taskestisu.com' target={"_blank"}><img src={taskestiLogo} width="200px"/></a>
+            <a href='https://www.durukan.com.tr' target={"_blank"}><img src={durukanLogo} width="200px"/></a>
+            <a href='https://deepfresh.com.tr' target={"_blank"}><img src={deepfreshLogo} width="200px"/></a>
         </div>
         
         
         <br/>
-        <br/>
-        */}
         
         <div className='w-full flex justify-around items-center grid-rows-4 gap-8'>
             {/*<a href='#'><img src={altın} width="192px"/></a>
@@ -189,7 +189,7 @@ const Sponsors = () => {
             <a href='https://www.gamerozzi.com/' target={"_blank"}><img src={gamerozzi} width="256px"/></a>
     <a href="https://castrum.istanbul/" target={"_blank"}><img src={castrum} width="256px"/></a>*/}
         </div>
-        <br/>
+
         <br/>
         <div className='w-full flex justify-around items-center grid-rows-3'>
             {/*<a href='https://gamizm.com/' target={"_blank"}><img src={gamizm} width="256px"/></a>

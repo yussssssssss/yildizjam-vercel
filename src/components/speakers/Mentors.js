@@ -1,5 +1,6 @@
 import React from 'react'
 import question from "../../images/question_mark.png"
+import toprakSeyidDogan from "../../images/toprak_seyid_dogan_ment.png"
 
 
 const Mentors = () => {
