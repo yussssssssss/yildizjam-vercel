@@ -10,6 +10,7 @@ import nescafeLogo from '../../images/nescafe_logo.png'
 import taskestiLogo from '../../images/taskesti_logo.png'
 import ankaramakarnaLogo from '../../images/ankaramakarna_logo.png'
 import adiyamancigkofteLogo from '../../images/adiyamancigkofte_logo.png'
+import adeks from '../../images/adeks.png'
 
 
 const Sponsors = () => {
@@ -135,6 +136,20 @@ const Sponsors = () => {
 
         <div className='w-full flex justify-center items-center grid-rows-3'>
             <a href='https://www.turktelekom.com.tr' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={turktelekomLogo} width="400px"/></a>
+        </div>
+
+        <div className=' w-full flex justify-center items-center gap-2 mt-8'>
+            <span className=' flex-1 bg-first h-[2px]' />
+            <h1 className=' text-3xl font-semibold baralt'>
+                Fuaye Sponsoru
+            </h1>
+            <span className=' flex-1 bg-first h-[2px]'/>
+        </div>
+        
+        <br/>
+
+        <div className='w-full flex justify-center items-center grid-rows-3'>
+            <a href='https://www.adeks.net' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={adeks} width="300px"/></a>
         </div>
 
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>

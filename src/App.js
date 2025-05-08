@@ -5,9 +5,14 @@ import Speakers from "./components/speakers/Speakers";
 import SpeakersBar from "./components/speakers/SpeakersBar";
 import Sponsors from "./components/sponsors/Sponsors";
 import SponsorsBar from "./components/sponsors/SponsorsBar";
+import EventBar from "./components/speakers/EventBar";
+import Events from "./components/speakers/Events";
 import Reason from "./components/Reason";
 import Footer from "./components/Footer";
 import questions from "./faq.json";
+
+import JuryBar from "./components/speakers/JuryBar";
+import Jury from "./components/speakers/Jury";
 
 // import MiddleNav from "./components/MiddleNav";
 // import { Skills } from "./components/Skills";
@@ -48,8 +53,10 @@ function App() {
       <Prize />
       <SpeakersBar />
       <Speakers />
-      <StantBarı/>
-      <Stants/>
+      <EventBar/>
+      <Events/>
+      <JuryBar/>
+      <Jury/>
       <MentorsBar/>
       <Mentors/>
       <SponsorsBar />
