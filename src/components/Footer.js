@@ -98,6 +98,11 @@ const Footer = () => {
 
                 <a className="text-gray-800" href="https://yildizskylab.com/">SKY LAB</a>
             </div >
+
+            <div className="text-center text-gray-700 p-4 ">
+                
+                <a className="text-gray-800">GAMELAB HARİKA</a>
+            </div >
         </footer >
     )
 }
